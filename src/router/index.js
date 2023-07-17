@@ -17,6 +17,16 @@ const routes = [
     name: "signin",
     component: () => import("../components/Login/SignIn.vue"),
   },
+  {
+    path: "/update",
+    name: "update",
+    component: () => import("../components/UpdateRes/UpdateRes.vue"),
+  },
+  {
+    path: "/add",
+    name: "add",
+    component: () => import("../components/AddRes/AddRes.vue"),
+  },
 ];
 
 const router = createRouter({
